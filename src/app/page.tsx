@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import Filters from "./Filters";
-import Charts from "./Charts";
-import Summary from "./Summary";
+import Filters from "./composants/Filters";
+import Charts from "./composants/Charts";
+import Summary from "./composants/Summary";
 import {
   Chart as ChartJS,
   CategoryScale,
